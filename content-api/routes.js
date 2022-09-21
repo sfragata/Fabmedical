@@ -1,7 +1,7 @@
 'use strict';
 
 const appController = require('./controllers/app.server.controller');
-
+//test
 const init = function (app) {
     app.get("/sessions", appController.sessionsGet);
     app.get("/speakers", appController.speakersGet);
